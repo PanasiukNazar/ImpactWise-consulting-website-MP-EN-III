@@ -1,0 +1,348 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <!-- Basic -->
+        <meta charset="utf-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+
+        <!-- Mobile Metas -->
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+        <!-- Site Metas -->
+        <title>ImpactWise</title>
+        <meta name="keywords" content="" />
+        <meta name="description" content="" />
+        <meta name="author" content="" />
+
+        <!-- Site Icons -->
+        <link
+            rel="shortcut icon"
+            href="images/favicon.ico"
+            type="image/x-icon"
+        />
+        <link rel="apple-touch-icon" href="images/apple-touch-icon.png" />
+
+        <!-- Bootstrap CSS -->
+        <link rel="stylesheet" href="css/bootstrap.min.css" />
+        <!-- Site CSS -->
+        <link rel="stylesheet" href="style.css" />
+        <!-- ALL VERSION CSS -->
+        <link rel="stylesheet" href="css/versions.css" />
+        <!-- Responsive CSS -->
+        <link rel="stylesheet" href="css/responsive.css" />
+        <!-- Custom CSS -->
+        <link rel="stylesheet" href="css/custom.css" />
+
+        <!-- Modernizer for Portfolio -->
+        <script src="js/modernizer.js"></script>
+    </head>
+
+    <body class="host_version">
+        <!-- LOADER -->
+        <div id="preloader">
+            <div class="loader-container">
+                <div class="progress-br float shadow">
+                    <div class="progress__item"></div>
+                </div>
+            </div>
+        </div>
+        <!-- END LOADER -->
+
+        <!-- Start header -->
+        <header class="top-navbar">
+            <nav class="navbar navbar-expand-lg navbar-light bg-light">
+                <div class="container-fluid">
+                    <a class="navbar-brand" href="index.html">
+                        <h2 style="color: #2da8d8ff">ImpactWise Consulting</h2>
+                    </a>
+                    <button
+                        class="navbar-toggler"
+                        type="button"
+                        data-toggle="collapse"
+                        data-target="#navbars-host"
+                        aria-controls="navbars-rs-food"
+                        aria-expanded="false"
+                        aria-label="Toggle navigation"
+                    >
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </button>
+                    <div class="collapse navbar-collapse" id="navbars-host">
+                        <ul class="navbar-nav ml-auto">
+                            <li class="nav-item">
+                                <a class="nav-link" href="index.html">Home</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="about.html"
+                                    >About Us</a
+                                >
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="services.html"
+                                    >Services</a
+                                >
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="feedbacks.html"
+                                    >Testimonials</a
+                                >
+                            </li>
+                            <li class="nav-item active">
+                                <a class="nav-link" href="contact.html"
+                                    >Contact</a
+                                >
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </nav>
+        </header>
+        <!-- End header -->
+
+        <div class="all-title-box bg-4">
+            <div class="container text-center">
+                <h1>Contact</h1>
+            </div>
+        </div>
+
+        <div id="contact" class="section wb">
+            <div class="container">
+                <div class="section-title text-center">
+                    <h3>Need Help? We're online!</h3>
+                    <p class="lead">
+                        Our consulting services are available online to help you
+                        efficiently and promptly with your business planning and
+                        development needs. Whether you're looking for guidance
+                        on the Motcepe investment, the New Gold Project, or
+                        strategies for Africa gold investments, we are here to
+                        assist you. Our team of expert consultants offers
+                        tailored solutions to ensure that your financial
+                        planning and project goals are successfully achieved.
+                        Contact us today to discuss how we can support your
+                        business growth.
+                    </p>
+                </div>
+                <!-- end title -->
+
+                <div class="row">
+                    <div class="col-xl-6 col-md-12 col-sm-12">
+                        <div class="contact_form">
+                            <div id="message"></div>
+                            <form
+                                id="contactform"
+                                class=""
+                                name="contactform"
+                                method="post"
+                            >
+                                <div class="row row-fluid">
+                                    <div class="col-lg-6 col-md-6 col-sm-6">
+                                        <input
+                                            type="text"
+                                            name="first_name"
+                                            id="first_name"
+                                            class="form-control"
+                                            placeholder="First Name"
+                                        />
+                                    </div>
+                                    <div class="col-lg-6 col-md-6 col-sm-6">
+                                        <input
+                                            type="text"
+                                            name="last_name"
+                                            id="last_name"
+                                            class="form-control"
+                                            placeholder="Last Name"
+                                        />
+                                    </div>
+                                    <div class="col-lg-6 col-md-6 col-sm-6">
+                                        <input
+                                            type="email"
+                                            name="email"
+                                            id="email"
+                                            class="form-control"
+                                            placeholder="Your Email"
+                                        />
+                                        <div
+                                            style="
+                                                margin-bottom: 30px;
+                                                color: red;
+                                            "
+                                            id="result"
+                                        ></div>
+                                    </div>
+                                    <div class="col-lg-6 col-md-6 col-sm-6">
+                                        <input
+                                            type="text"
+                                            name="phone"
+                                            id="phone"
+                                            class="form-control"
+                                            placeholder="Your Phone Number"
+                                        />
+                                    </div>
+                                    <div class="col-lg-12 col-md-12 col-sm-12">
+                                        <textarea
+                                            class="form-control"
+                                            name="comments"
+                                            id="comments"
+                                            rows="6"
+                                            placeholder="Tell us more details..."
+                                        ></textarea>
+                                    </div>
+                                    <div class="text-center pd">
+                                        <button
+                                            type="submit"
+                                            value="SEND"
+                                            id="submit"
+                                            class="btn btn-light btn-radius btn-brd grd1 btn-block"
+                                            onclick="sendForm()"
+                                        >
+                                            Get a Quote
+                                        </button>
+                                    </div>
+                                </div>
+                            </form>
+                        </div>
+                    </div>
+                    <!-- end col -->
+                    <div class="col-xl-6 col-md-12 col-sm-12">
+                        <iframe
+                            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d19314.404529044743!2d28.039713423893964!3d-26.108500232511066!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x1e957333bf55a7af%3A0x7b803a968f465d14!2sSandton%20Convention%20Centre!5e0!3m2!1suk!2sua!4v1735054126726!5m2!1suk!2sua"
+                            width="100%"
+                            height="100%"
+                            style="border: 0"
+                            allowfullscreen=""
+                            loading="lazy"
+                            referrerpolicy="no-referrer-when-downgrade"
+                        ></iframe>
+                    </div>
+                </div>
+
+                <!-- end row -->
+            </div>
+            <!-- end container -->
+        </div>
+        <!-- end section -->
+
+        <!-- end section -->
+        <footer class="footer">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-4 col-md-4 col-xs-12">
+                        <div class="widget clearfix">
+                            <div class="widget-title">
+                                <h3 style="color: #2da8d8ff">ImpactWise</h3>
+                            </div>
+                            <p>
+                                Contact us for comprehensive consulting services
+                                in financial planning, Motcepe investment, and
+                                projects such as New Gold Project and Africa
+                                gold. Our team specializes in creating tailored
+                                investment strategies, guiding businesses and
+                                individuals to navigate the complexities of the
+                                investment landscape.
+                            </p>
+                        </div>
+                        <!-- end clearfix -->
+                    </div>
+                    <!-- end col -->
+
+                    <div class="col-lg-4 col-md-4 col-xs-12">
+                        <div class="widget clearfix">
+                            <div class="widget-title">
+                                <h3>Information</h3>
+                            </div>
+                            <ul class="footer-links">
+                                <li><a href="index.html">Home</a></li>
+                                <li><a href="about.html">About Us</a></li>
+                                <li>
+                                    <a href="privacy-policy.html"
+                                        >Privacy Policy</a
+                                    >
+                                </li>
+                                <li>
+                                    <a href="terms-of-use.html">Terms of Use</a>
+                                </li>
+                            </ul>
+                            <!-- end links -->
+                        </div>
+                        <!-- end clearfix -->
+                    </div>
+                    <!-- end col -->
+
+                    <div class="col-lg-4 col-md-4 col-xs-12">
+                        <div class="widget clearfix">
+                            <div class="widget-title">
+                                <h3>Contact Details</h3>
+                            </div>
+
+                            <ul class="footer-links">
+                                <li>
+                                    <a href="mailto:impact_wise@gmail.com"
+                                        >impact_wise@gmail.com</a
+                                    >
+                                </li>
+                                <li>
+                                    161 Maude St, Sandown, Sandton, 2196, South
+                                    Africa
+                                </li>
+                                <li>+27117790000</li>
+                            </ul>
+                            <!-- end links -->
+                        </div>
+                        <!-- end clearfix -->
+                    </div>
+                    <!-- end col -->
+                </div>
+                <!-- end row -->
+            </div>
+            <!-- end container -->
+        </footer>
+
+        <!-- end footer -->
+
+        <!-- Cookie banner -->
+        <div class="cookie-wrapper show">
+            <div>
+                <i class="bx bx-cookie"></i>
+                <h2 style="text-align: center">Cookie Policy</h2>
+            </div>
+
+            <div class="data">
+                <p>
+                    This website uses cookies to provide you with the best user
+                    experience. Cookies are small text files stored on your
+                    device that support website functionality and provide
+                    anonymous usage statistics. By using our website, you
+                    consent to the use of cookies in accordance with our cookie
+                    policy.
+                </p>
+            </div>
+
+            <div class="buttons">
+                <button class="cookie-button" id="acceptBtn">Accept</button>
+                <button class="cookie-button" id="declineBtn">Decline</button>
+            </div>
+        </div>
+        <!-- End Cookie banner -->
+
+        <a href="#" id="scroll-to-top" class="dmtop global-radius"
+            ><i class="fa fa-angle-up"></i
+        ></a>
+
+        <!-- ALL JS FILES -->
+        <script src="js/all.js"></script>
+        <script src="js/cookiebanner.js"></script>
+        <script src="js/contact-form.js"></script>
+        <!-- ALL PLUGINS -->
+        <script src="js/custom.js"></script>
+        <script src="js/timeline.min.js"></script>
+        <script>
+            timeline(document.querySelectorAll('.timeline'), {
+                forceVerticalMode: 700,
+                mode: 'horizontal',
+                verticalStartPosition: 'left',
+                visibleItems: 4,
+            });
+        </script>
+    </body>
+</html>
